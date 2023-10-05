@@ -12,6 +12,7 @@ export const init = async parent => {
     const renderer = await autoDetectRenderer({
         width: 960,
         height: 540,
+        backgroundColor: "#fff",
     })
     parent.appendChild(renderer.canvas)
 
@@ -25,4 +26,10 @@ export const init = async parent => {
     renderer.render({
         container: scene
     })
+    setTimeout(() => {
+        bunny.x += 100
+        renderer.render({
+            container: scene
+        })
+    }, 1000)
 }
