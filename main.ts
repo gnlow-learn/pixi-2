@@ -1,4 +1,4 @@
-import { init } from "./src/mod.ts"
+import { init } from "./src/mod.js"
 
 (async () => {
     await init()

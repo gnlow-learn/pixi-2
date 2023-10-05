@@ -37,6 +37,7 @@ async function handleHttp(conn: Deno.Conn) {
         {
             headers: {
                 "content-type": {
+                    ".js": "application/javascript",
                     ".ts": "application/javascript",
                     ".html": "text/html",
                 }[extname(filepath)] || "text/plain"
