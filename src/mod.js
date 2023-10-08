@@ -3,6 +3,7 @@ import {
     Sprite,
     Container,
     Assets,
+    Ticker,
 } from "./deps/pixi.ts"
 
 /**
@@ -23,14 +24,33 @@ export const init = async parent => {
     const bunny = Sprite.from("https://pixijs.com/assets/bunny.png")
     scene.addChild(bunny)
 
-    renderer.render({
-        container: scene
-    })
-    setTimeout(() => {
-        bunny.x = 240
-        bunny.rotation = 45
-        renderer.render({
-            container: scene
-        })
-    }, 1000)
+    const ticker = Ticker.shared
+    ticker.autoStart = false
+    ticker.stop()
+    ticker.add(
+        ({deltaTime}) => {
+            console.log("AA", deltaTime)
+            bunny.x += deltaTime
+            renderer.render({
+                container: scene
+            })
+        }
+    )
+    ticker.start()
+
+    const bunny2 = Sprite.from("https://pixijs.com/assets/bunny.png")
+    scene.addChild(bunny2)
+
+    const ticker2 = new Ticker
+    bunny2.y = 100
+    ticker2.add(
+        ({deltaTime}) => {
+            console.log("BB", deltaTime)
+            bunny2.x += deltaTime
+            renderer.render({
+                container: scene
+            })
+        }
+    )
+    ticker2.start()
 }
