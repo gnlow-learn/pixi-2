@@ -5,6 +5,16 @@
     "https://deno.land/std@0.203.0/path/_extname.ts": "eaaa5aae1acf1f03254d681bd6a8ce42a9cb5b7ff2213a9d4740e8ab31283664",
     "https://deno.land/std@0.203.0/path/_os.ts": "30b0c2875f360c9296dbe6b7f2d528f0f9c741cecad2e97f803f5219e91b40a2",
     "https://deno.land/std@0.203.0/path/_util.ts": "4e191b1bac6b3bf0c31aab42e5ca2e01a86ab5a0d2e08b75acf8585047a86221",
-    "https://deno.land/std@0.203.0/path/extname.ts": "62c4b376300795342fe1e4746c0de518b4dc9c4b0b4617bfee62a2973a9555cf"
+    "https://deno.land/std@0.203.0/path/extname.ts": "62c4b376300795342fe1e4746c0de518b4dc9c4b0b4617bfee62a2973a9555cf",
+    "https://tsm.deno.dev/https://deno.land/x/enz@0.1.1/mod.ts": "9473507398048cb24dbb37b3a220777106c69c28d573898648deb2bb84a7e131",
+    "https://tsm.deno.dev/https://deno.land/x/enz@0.1.1/src/class/Object_.ts": "a43c9d89a98c099e2882a6ad9ecfb69076349314a90306833e1d40e5e8a7225f",
+    "https://tsm.deno.dev/https://deno.land/x/enz@0.1.1/src/class/Project.ts": "12ac0eb4cf664459860051c05a0529866f7b1421df0732c2e3f78436fc69ec4e",
+    "https://tsm.deno.dev/https://deno.land/x/enz@0.1.1/src/class/Script.ts": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "https://tsm.deno.dev/https://deno.land/x/enz@0.1.1/src/class/mod.ts": "bbbe12433ae3806cf949196e47e250df3f1649eef367cb6ec73b492e22d54ab0",
+    "https://tsm.deno.dev/https://deno.land/x/enz@0.1.1/src/mod.ts": "9bfaedbb060195bcf2c7d973e00f1cc6fe45e2c7d484fe3e1b337841b489a8cb",
+    "https://tsm.deno.dev/https://deno.land/x/enz@0.1.1/src/util/codegen.ts": "c8bf2c699a1b602a21dc1397af03ef40a426b4b7797a09803157b5c3258bdb91",
+    "https://tsm.deno.dev/https://deno.land/x/enz@0.1.1/src/util/mod.ts": "956977e217052024698f910fa89a56831cc4a0a40089466251c9f6f5333d7005",
+    "https://tsm.deno.dev/https://deno.land/x/enz@0.1.1/src/util/parseProject.ts": "df021616995770f1b1497f8017236ab7fd1c476218670a419707130db9a21a78",
+    "https://tsm.deno.dev/https://deno.land/x/enz@0.1.1/src/util/projectToJs.ts": "8de9634c587ad3fe18d44a493f1910e8a37fd94e04a028d061f95c9b1cf348bc"
   }
 }

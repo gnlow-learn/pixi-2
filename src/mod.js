@@ -29,7 +29,6 @@ export const init = async parent => {
     ticker.stop()
     ticker.add(
         ({deltaTime}) => {
-            console.log("AA", deltaTime)
             bunny.x += deltaTime
             renderer.render({
                 container: scene
@@ -45,7 +44,6 @@ export const init = async parent => {
     bunny2.y = 100
     ticker2.add(
         ({deltaTime}) => {
-            console.log("BB", deltaTime)
             bunny2.x += deltaTime
             renderer.render({
                 container: scene
